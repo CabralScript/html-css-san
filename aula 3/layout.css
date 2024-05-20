@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+*{
+    font-family: sans-serif;
+}
+
+
+.h1header{
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.estilos-principais{
+    color: aqua;
+    line-height: 1.5;
+    background-color: black;
+    padding: 20px;
+    text-align: justify;
+    margin: auto;
+    width: 400px;
+    border: 10px solid aqua;
+    border-radius: 10px 20px;
+}
+
+.flexbox p{
+    color: red;
+    font-size: larger;
+}
+.flexbox .container{
+    display: flex;
+    gap: 20px;
+    /*!\ Para tornar display flex, você tem que adicionar direto no pai do elemento. igual nesse caso, inves de adicionar no .boxflex, eu adicionei no .flexbox.container*/
+   justify-content: center; /*Alinhamento horizontal*/
+   /* align-items: center; alinhamento vertical. */
+   margin: 10px;
+   
+}
+
+.flexbox .container .boxflex{
+    width: 400px;
+    height: 200px;
+    background-color: yellow;
+    color: red;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    border-radius: 50%;
+    font-size: 40px;
+    font-family: serif;
+    font-weight: bold ;
+    
+}
+
+
+
+.grid-layout .contgrid{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr); /*responsividade*/
+   gap: 20px;
+   color: darkblue;
+   justify-content: center;
+   text-align: center;
+   margin: auto;
+   align-items: center;
+   font-size: 70px;
+  font-weight: bold;
+   
+
+  
+   
+}
+
+.grid-layout .contgrid .boxgrid{
+    /* width: 200px; */
+    height: 200px;
+    background-color: coral;
+    
+}

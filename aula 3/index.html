@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.star.png" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+    <title>HTML Layout</title>
+    <style>
+        .interna{
+            color: aqua;
+        }
+        .internap{
+            color: rebeccapurple;
+            font-size: large;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: crimson; font-size: 40px;">Como usar CSS no HTML?</h1>
+    
+    <h2 style="color: blue;">Aqui estamos usando a forma inline.</h2>
+    <hr>
+    <h1 class="interna">Aqui estamos usando a forma interna</h1>
+    <p class="internap">Criamos uma class com o nome "interna" e estilizamos usando a tag &lt;style&gt; no head.</p>
+    <hr>
+    <main>
+        <h1 class="externa" id="h1ex">Forma externa</h1>
+        <p class="externa">E agora vamos usar a forma externa criando um documento CSS e colocando o link dentro do head HTML.</p>
+        <p class="externa">Assim vamos estilizar essas tags &lt;p&gt; e também estilizar o body.</p>
+    </main>
+</body>
+</html>

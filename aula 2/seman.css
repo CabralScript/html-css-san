@@ -1,0 +1,45 @@
+@charset "UTF8";
+*{
+    margin: 0;
+}
+header{
+    background-color: aqua;
+    
+    margin: auto;
+    padding: 100px;
+    text-align: center;
+    border-radius: 10px 20px;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 10px black;
+
+}
+h1{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+        
+    
+
+}
+main{
+    
+    background-color: red;
+    width: 400px;
+    margin: auto;
+    padding: 200px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+
+
+}
+footer{
+    background-color: aquamarine;
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 30px;
+   padding: 5px;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.star.png" type="image/x-icon">
+    <title>Conhecendo o HTML</title>
+</head>
+<body>
+    <h1 style="color: crimson;">Fundamentos do HTML</h1>
+   <!-- ? Isso é um comentário. -->
+   <!-- ! Principais tags em html.... -->
+   <h1>Cabeçalho 1</h1>
+   <h2>Cabeçalho 2</h2>
+   <h3>Usando a tag &lth1&gt;</h3>
+   <!-- * Temos do H1 até o H6para colocar títulos. -->
+   <hr> 
+   <!-- *Usamos <hr> para dividir linhas -->
+   <!-- !\ Vamos agora usar tags de parágrafo. -->
+   <p>Isso é um parágrafo</p>
+   <p>Utilizando a tag &ltp&gt;
+    <!-- todo\ Utilizamos também <br> para pular linhas  -->
+    <hr>
+    <h1>Vamos agora usar a tag &lta&gt</h1>
+    <h3>Para colocar links</h3>
+    <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank" rel="external">Isso é um exemplo de link</a>
+    <!-- !\ E usamos "target= _blank" e "rel = external" para abrir o link entre outra aba sem precisar fechar a aba atual. -->
+    <hr>
+    <h1>Agora vamos utilizar imagens.</h1>
+    <h3>Usando a tag &ltimg&gt</h3>
+    <img src="favicon.star.png" alt="isso é uma estrela" width="200px"> 
+    <!-- !\ É bom colocar algo escrito no "alt -> que é uma descrição alternativa." e no "src" você coloca a imagem.-->
+    <!-- *\ E você também pode alterar o tamanho e a altura diretamente do html. Como por exemplo,coloquei o width(tamanho) dessa imagem em 200px.-->
+    <hr>
+    <h1>Agora vamos falar de listas.</h1>
+    <p>Utilizando as tags &lt;ul&gt;, &lt;ol&gt e &lt;il&gt;</p>
+
+    <ul>
+        <li style="color: blue;">
+            Isso é uma lista
+        </li>
+        <li>Lista número 1</li>
+    </ul>
+<!-- !\ E novamente usando CSS já no HTML. -->
+<!-- *Agora as listas numeradas. -->
+<ol> 
+    <li>produto 1</li>
+    <li>Produto 2</li>
+    <li>Produto 3</li>
+    <li>Produto 4</li>
+</ol>
+<hr>
+<hr>
+<br>
+<h1>Tags de uso genérico:</h1>
+<!-- todo\ exemplos de tags -> "div", "span" -->
+<!-- ?\ div -> block. ou seja, ocupa um todo o bloco onde ele foi criado. -->
+<p>
+    <div style="background-color: gray;">  Isso é uma div.</div>
+</p>
+<!-- ?\ span -> inline. E o span ocupa apenas o espaço onde ele foi chamado. -->
+<p><span style="background-color: aqua;"> Isso é um span.</span></p>
+
+<hr>
+<hr>
+<h1>Tags de formatação de texto</h1>
+<!-- ?\ <strong> -->
+<p>Aqui vamos utilizar a tag <strong>&lt;strong&gt para deixar o texto em negrito.</strong> </p>
+<!-- ?\ <em> -->
+<p>E usamos a tag <em>&lt;em&gt para deixar o texto em itálico.</em></p>
+<!-- ?\ <mark> -->
+<p> <mark>aqui usamos a tag &lt;mark&gt; para marcar o texto.</mark> </p>
+<!-- ?\ <pre> -->
+<p><pre>aqui usamos a tag &lt;pre&gt; para deixar o texto pré formatado.</pre></p>
+<!-- ?\ <code> -->
+<p><code>Aqui é a tag &lt;code&gt; para deixar em formato de código.</code></p>
+<!-- ?\ <sub> -->
+<p><sub>A tag sub utilizamos</sub>para deixar o texto abaixo do texto principal</p>
+<!-- ?\ <sup> -->
+<p>E a tag <sup>&lt;sup&gt; para deixar o texto na parte de cima do texto principal</sup></p>
+<!-- ?\ <s> -->
+<p><s>Essa tag risca o texto</s></p>
+<!-- ?\ <u> -->
+<p>E por ultimo a tag &lt;u&gt; <u>para sublinhar o texto,</u>MAS não é indicado sublinhar o texto dessa forma. o jeito certo de se fazer é pelo CSS usando o -> text-decoration = underline.</p>
+<p style="text-decoration: underline;">Dessa forma</p>    
+   
+</body>
+</html>

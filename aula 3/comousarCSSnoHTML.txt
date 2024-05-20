@@ -1,0 +1,18 @@
+como essa aula ensina como usar o CSS no HTML.
+
+podemos fazer a forma inline que é colocar estilo logo na tag.
+
+podemos fazer de forma interna que é utilizando a tag <style> dentro do head.
+
+e por último, de forma externa criando um arquivo CSS e colocando o link do CSS no head do HTML.
+
+
+
+
+
+GRANDE DETALHE!!!!
+quando o flex-direction estiver com o alinhamento ROW, o align-items é o alinhamento vertical. E o justify-content é o alinhamento horizontal.
+
+MAS
+
+quando mudarmos o alinhamento do flex-direction e colocarmos COLUMN, o justify-content passa a ser o alinhamento vertical. E o align-items passa a ser o alinhamento horizontal.
